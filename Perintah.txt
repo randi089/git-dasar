@@ -1,0 +1,16 @@
+git config --global user.name "Randi Febriadi" //untuk menambahkan nama ke git.
+git config --global user.email "randifebriadi@gmail.com" //untuk menambahkan email ke git.
+
+git config --global core.editor "code --wait" //untuk menjadikan vscode sebagai default editor git.
+git config --global diff.tool "default-difftool" //untuk menjadikan vscode sebagai diff tool git.
+git config --global difftool.default-difftool.cmd "code --wait --diff \$LOCAL \$REMOTE" //untuk menjadikan default difftool git.
+
+git config --list --show-origin //untuk melihat seluruh konfigurasi.
+
+git init //untuk membuat repository.
+
+code . //untuk membuka vscode di folder saat ini.
+
+git status //untuk mengecek perubahan yang terjadi.
+
+git add Perintah.txt //untuk memindahkan ke Staging Index.
