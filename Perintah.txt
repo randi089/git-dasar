@@ -38,3 +38,8 @@ git checkout 186feeb //untuk pindah commit.
 git checkout 186feeb -- file2.txt //untuk melihat file di commit sebelumnya.
 
 git branch --show-current //untuk melihat branch saat ini.
+git revert 186feeb //untuk membalikkan commit dan membuat commit baru.
+
+git blame Perintah.txt //untuk melihat siapa yang melakukan perubahan dan commit di file.
+
+git config --global alias.co commit //untuk membuat alias. jika command gitnya lebih dari satu kata gunakan kutip dua.
