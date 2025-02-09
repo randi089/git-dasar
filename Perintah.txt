@@ -13,5 +13,6 @@ code . //untuk membuka vscode di folder saat ini.
 
 git status //untuk mengecek perubahan yang terjadi.
 git add Perintah.txt //untuk memindahkan ke Staging Index.
+git add . //untuk memindahkan semua perubahan file ke Staging Index.
 git commit -m "message" //untuk Commit ke Repository.
 git diff //untuk melihat perubahan file.
