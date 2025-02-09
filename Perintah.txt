@@ -14,7 +14,9 @@ code . //untuk membuka vscode di folder saat ini.
 git status //untuk mengecek perubahan yang terjadi.
 git add Perintah.txt //untuk memindahkan ke Staging Index.
 git add . //untuk memindahkan semua perubahan file ke Staging Index.
+
 git commit -m "message" //untuk Commit ke Repository.
+git commit --amend -m "Menambahkan file3.txt dan merubah file3.txt" //untuk mengubah commit yang baru saja dilakukan.
 
 git diff //untuk melihat perubahan file.
 git diff 5e5e01c 5ab4b33 //untuk membandingkan hasil commit. hash1 adalah commit awal dan hash2 adalah commit  akhir.
@@ -32,4 +34,7 @@ git show 5ab4b33 //untuk melihat detail commit.
 
 git reset --soft 5e5e01c //untuk mereset commit. --soft tidak mereset Staging Index nya, --mixed tidak  mereset working directory nya, --hard reset semuanya. Jika belum membuat commit baru masih bisa kembali ke commit sebelumnya.
 
-git commit --amend -m "Menambahkan file3.txt dan merubah file3.txt" //untuk mengubah commit yang baru saja dilakukan.
+git checkout 186feeb //untuk pindah commit.
+git checkout 186feeb -- file2.txt //untuk melihat file di commit sebelumnya.
+
+git branch --show-current //untuk melihat branch saat ini.
