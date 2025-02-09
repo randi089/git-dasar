@@ -12,5 +12,5 @@ git init //untuk membuat repository.
 code . //untuk membuka vscode di folder saat ini.
 
 git status //untuk mengecek perubahan yang terjadi.
-
 git add Perintah.txt //untuk memindahkan ke Staging Index.
+git commit -m "message" //untuk Commit ke Repository.
