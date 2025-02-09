@@ -15,4 +15,17 @@ git status //untuk mengecek perubahan yang terjadi.
 git add Perintah.txt //untuk memindahkan ke Staging Index.
 git add . //untuk memindahkan semua perubahan file ke Staging Index.
 git commit -m "message" //untuk Commit ke Repository.
+
 git diff //untuk melihat perubahan file.
+git diff 5e5e01c 5ab4b33 //untuk membandingkan hasil commit. hash1 adalah commit awal dan hash2 adalah commit  akhir.
+git difftool 5e5e01c 5ab4b33 //untuk membandingkan hasil commit dengan vscode. hash1 adalah commit awal dan hash2 adalah commit  akhir.
+
+git clean -f //untuk membatalkan penambahan file baru di working directory.
+git restore Perintah.txt //untuk membatalkan perubahan file di working directory.
+git restore --staged Perintah.txt //untuk membatalkan perubahan file di Staging Index.
+
+git log //untuk melihat history.
+git log --oneline //untuk melihat history satu baris.
+git log --oneline --graph //untuk melihat history satu baris dalam bentuk graph.
+
+git show 5ab4b33 //untuk melihat detail commit.
